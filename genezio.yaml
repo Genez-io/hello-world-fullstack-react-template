@@ -1,5 +1,6 @@
 name: template-name
-region: us-east-1 
+region: us-east-1
+language: ts
 workspace: 
   backend: server
   frontend: client
