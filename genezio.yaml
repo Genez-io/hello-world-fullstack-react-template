@@ -1,0 +1,5 @@
+name: template-name
+region: us-east-1 
+workspace: 
+  backend: server
+  frontend: client
