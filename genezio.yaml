@@ -1,7 +1,14 @@
 name: template-name
 region: us-east-1
 language: ts
+cloudProvider: genezio
+scripts:
+  preBackendDeploy: npm install
+  preFrontendDeploy: npm run install-prod-sdk && npm install && npm run build
+frontend:
+  path: client/build
+  subdomain: pink-positive-jellyfish
 packageManager: npm
-workspace: 
+workspace:
   backend: server
   frontend: client
