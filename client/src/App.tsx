@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { HelloWorldService } from "@genezio-sdk/template-name_us-east-1"
 
 function App() {
+
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
 
